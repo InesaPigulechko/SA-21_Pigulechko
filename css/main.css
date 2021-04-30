@@ -113,7 +113,7 @@ header {
   height: 37px;
   right: 20px;
   top: 16px;
-  background: url(img/menu.svg);
+  background-image: url(img/menu.svg);
 }
 
 .menu-close {
@@ -123,7 +123,7 @@ header {
   height: 30px;
   right: 20px;
   top: 18px;
-  background: url(img/cross.svg);
+  background-image: url(img/cross.svg);
 }
 .menu-popup li a {
   text-decoration: none;
