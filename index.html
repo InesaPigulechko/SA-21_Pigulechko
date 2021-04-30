@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>littleaf</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@400;700&family=Sniglet&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="d-menu">
+        <div class="limit-menu">
+          <div class="logo">
+            <a href="#home" class="logo-image"></a>
+            <a href="#home" class="logo-title">littleaf</a>
+          </div>
+          <ul class="ul">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#plants">Plants</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu">
+        <a class="menu-triger" onclick="showme()"></a>
+        <div class="menu-popup">
+          <a class="menu-close" onclick="hideme()"></a>
+          <ul>
+            <li class="fir-li"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#plants">Plants</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+    <script type="text/javascript">
+      function hideme() {
+        document.getElementsByClassName('menu-triger')[0].style.display =
+          'block';
+        document.getElementsByClassName('menu-popup')[0].style.display = 'none';
+      }
+
+      function showme() {
+        document.getElementsByClassName('menu-popup')[0].style.display =
+          'block';
+        document.getElementsByClassName('menu-triger')[0].style.display =
+          'none';
+      }
+    </script>
+    <section id="home">
+      <section class="banner">
+        <div class="wrapper">
+          <h1 class="title">Plants for interior</h1>
+          <p class="title2">Bring freshness to your house</p>
+        </div>
+      </section>
+    </section>
+    <main>
+      <!-- <hr id="about"> -->
+      <div class="about">
+        <div class="title-3" >
+          <p id="about">Welcome to littleaf</p>
+        </div>
+        <div class="main-container-1">
+          <div class="container-1">
+            <div class="center-text-1">
+              <div class="text-1">
+                <p>
+                  At littleaf we believe that<br />bringing the natural world<br />into
+                  your home or office will<br />
+                  increase your quality of life.
+                </p>
+              </div>
+            </div>
+            <div class="img-1"></div>
+            <div class="img-1-320"></div>
+          </div>
+          <div class="container-2">
+            <div class="img-2"></div>
+            <div class="center-text-2">
+              <div class="text-2">
+                <p4>
+                  Our mission is to bring the<br />
+                  beauty of nature indoors to<br />
+                  create more comfortable,<br />
+                  attractive, and productive<br />
+                  places to live and work.
+                </p4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="plants">
+        <div class="title-4">
+          <p id="plants">Our best sellers</p>
+        </div>
+        <div class="main-container-2">
+			<div class="card1-card2">
+				<div class="card-1">
+            <div class="img-plant-1">
+
+            </div>
+            <div class="rect-1">
+              <p class="plant-title-1">Coffee Plant</p>
+              <p class="price-1">$35</p>
+            </div>
+            <div class="description-1">
+              <div class="desc-1">
+                <div class="sun-block-1">
+                  <div class="sun-1">
+                    <img src="img/sun.svg" alt="sun" />
+                  </div>
+                  <div class="sun-text-1">
+                    <p>Bright indirect light</p>
+                  </div>
+                </div>
+                <div class="drop-block-1">
+                  <div class="drop-1">
+                    <img src="img/drop.svg" alt="drop" />
+                  </div>
+                  <div class="drop-text-1">
+                    <p>Water every 1–2 weeks</p>
+                  </div>
+                </div>
+                <div class="main-desc-1">
+                  <p>
+                    You might be surprised to know the same plant that grows
+                    your morning coffee beans is a popular, low maintenance
+                    houseplant! Although it’s unlikely this plant will produce
+                    berries inside, its attractive shiny green foliage will
+                    liven up any interior space.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="img-plant-2">
+            </div>
+            <div class="rect-2">
+              <p class="plant-title-2">Succulent </br> Assortment</p>
+              <p class="price-2">$42</p>
+            </div>
+            <div class="description-2">
+              <div class="desc-2">
+                <div class="sun-block-2">
+                  <div class="sun-2">
+                    <img src="img/sun.svg" alt="sun" />
+                  </div>
+                  <div class="sun-text-2">
+                    <p>Bright direct to indirect light</p>
+                  </div>
+                </div>
+                <div class="drop-block-2">
+                  <div class="drop-2">
+                    <img src="img/drop.svg" alt="drop" />
+                  </div>
+                  <div class="drop-text-2">
+                    <p>Water every 2–3 weeks</p>
+                  </div>
+                </div>
+                <div class="main-desc-2">
+                  <p>
+                    Succulent refers to a wide range of drought-tolerant plants.
+                    Our assortment includes a variety of six or twelve in
+                    plastic nursery pots. They require bright, direct light—but
+                    little else. Perfect for a small windowsill.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+			</div>
+          <div class="card-3">
+            <div class="card-3-334">
+               <div class="img-plant-3">
+            </div>
+            <div class="rect-3">
+              <p class="plant-title-3">Peperomia </br> Obtusifolia</p>
+              <p class="price-3">$37</p>
+            </div>
+            <div class="description-3">
+              <div class="desc-3">
+                <div class="sun-block-3">
+                  <div class="sun-3">
+                    <img src="img/sun.svg" alt="sun" />
+                  </div>
+                  <div class="sun-text-3">
+                    <p>Bright indirect to low light</p>
+                  </div>
+                </div>
+                <div class="drop-block-3">
+                  <div class="drop-3">
+                    <img src="img/drop.svg" alt="drop" />
+                  </div>
+                  <div class="drop-text-3">
+                    <p>Water every 1–2 weeks</p>
+                  </div>
+                </div>
+                <div class="paw-block-3">
+                  <div class="paw-3">
+                    <img src="img/pawprint.svg" alt="drop" />
+                  </div>
+                  <div class="paw-text-3">
+                    <p>Pet friendly</p>
+                  </div>
+                </div>
+                <div class="main-desc-3">
+                  <p>
+                    The Peperomia obtusifolia, or “baby rubber plant”, is
+                    characterized by its thick spoon-shaped green leaves.
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="our-advantages">
+      <div class="main-container-3">
+        <div class="adv-1">
+          <img src="/img/delivery_truck.svg" alt="delivery" />
+          <p>Fast Free Shipping</p>
+        </div>
+        <div class="adv-2">
+          <img src="/img/giftbox.svg" alt="gift" />
+          <p>Free Gift</p>
+        </div>
+        <div class="adv-3">
+          <img src="/img/badge.svg" alt="badge" />
+          <p>Best Quality</p>
+        </div>
+      </div>
+    </section>
+    <section class="new">
+      <div class="title-5">
+        <p>New & Featured</p>
+      </div>
+      <div class="main-container-4">
+        <div class="new-card1-card2">
+          <div class="new-card-1">
+            <div class="new-img-plant-1"></div>
+            <div class="new-rect-1">
+              <p class="new-title-1">Bird’s Nest Fern Victoria</p>
+              <p class="new-price-1">$40</p>
+            </div>
+          </div>
+          <div class="new-card-2">
+            <div class="new-img-plant-2"></div>
+            <div class="new-rect-1">
+              <p class="new-title-1">Large Snake Zeylanica</p>
+              <p class="new-price-1">$154</p>
+            </div>
+          </div>
+        </div>
+        <div class="new-card-3">
+          <div class="new-img-plant-3"></div>
+          <div class="new-rect-1">
+            <p class="new-title-1">Money Tree Plant</p>
+            <p class="new-price-1">$44</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="video">
+      <video poster="/img/screen_video.png" autoplay muted loop>
+      <!-- <source src="/img/littleaf_video.mp4" type="video/mp4"> -->
+    </video>
+    </div>
+<!-- ======================= -->
+   <form class="form">
+      <div class="title-6">
+      <p id="contact">Contact us</p>
+      </div>
+      <div class="text_input">
+        <div class="nes">
+          <input type="text" placeholder="Name" name="name" autocomplete="off" required>
+          <input type="text" placeholder="Email" name="mail" autocomplete="off" required>
+          <input type="text" placeholder="Subject" name="subject" autocomplete="off" required>
+        </div>
+        <div class="m">
+        <textarea name="message" placeholder="Message" id="message" cols="30" rows="9"></textarea>
+      </div>
+      </div>
+      <div class="button">
+      <input type="submit" value="Submit">
+      </div>
+    </form>
+<!-- ============================== -->
+    <footer>
+      
+      <div class="main-main">
+        <div class="main-container-6">
+          <div class="logo-part-text">
+            <div class="logo-part">
+               <a href="#home" class="logo-image-last"></a>
+               <a href="#home" class="logo-title-last">littleaf</a>
+            </div>
+            <div>
+              <p class="last-text">
+                We started this company to share our love for plants with our
+                friends, and we would love to have you in our circle. By sharing
+                this contagiously good lifestyle with you, we hope you will do
+                the same for others.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="find-us">
+              <div class="office">
+                <p>Our office</p>
+              </div>
+              <div class="address">
+                <p class="address-title">Address</p>
+                <p class="street">
+                  69 North Cleveland <br />
+                  street, Memphis, USA
+                </p>
+              </div>
+              <div class="call-us">
+                <p class="call-us-title">Call us</p>
+                <p class="phone">
+                  (123) 8111 9210 <br />
+                  (012) 1111 6868
+                </p>
+              </div>
+            </div>
+            <div class="social-media">
+              <p class="sm-title">Social media</p>
+              <p class="sm">
+                <a href="https://www.facebook.com/TheSillNYC" target="_blank">Facebook <br /></a>
+                <a href="https://www.instagram.com/thesill/" target="_blank">Instagram <br /></a> 
+                <a href="https://www.youtube.com/channel/UCuxSexJRWV99gVFffJ-plig" target="_blank">YouTube <br /></a> 
+                <a href="https://www.pinterest.com/thesillnyc/_shop/" target="_blank">Pinterest <br /></a>  
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <hr class="line-2" />
+          <p class="cr">Copyright Ⓒ 2021 littleaf Inc. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
