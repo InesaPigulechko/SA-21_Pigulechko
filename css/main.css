@@ -113,8 +113,9 @@ header {
   height: 37px;
   right: 20px;
   top: 16px;
-  background: url(/img/menu.svg);
+  background: url(../img/menu.svg);
 }
+
 .menu-close {
   position: absolute;
   display: block;
@@ -122,7 +123,7 @@ header {
   height: 30px;
   right: 20px;
   top: 18px;
-  background: url(/img/cross.svg);
+  background: url(../img/cross.svg);
 }
 .menu-popup li a {
   text-decoration: none;
