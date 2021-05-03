@@ -5,6 +5,10 @@
   cursor: default;
   scroll-behavior: smooth;
 }
+::selection {
+  color: #e5edef;
+  background: #7f8925;
+}
 video {
   box-sizing: border-box;
   width: 67.5%;
@@ -45,12 +49,14 @@ a {
 header {
   position: fixed;
 }
-
+.ul a {
+  text-decoration: none;
+  transition: text-decoration-color 0.5s;
+}
 .ul a:hover {
   color: #7f8925;
-  font-family: Sniglet;
-  font-size: 30px;
-  /* font-weight: 700; */
+  text-decoration: #7f8925;
+  text-decoration-line: underline;
   transition: 0.5s;
 }
 .logo {
@@ -1289,11 +1295,31 @@ footer {
   font-size: 25px;
   color: #e5edef;
 }
-.phone,
-.street {
+.phone a {
   font-family: Montserrat;
   font-size: 17px;
   color: #e5edef;
+  text-decoration: none;
+  transition: text-decoration-color 0.5s;
+}
+.phone a:hover {
+  color: #7f8925;
+  text-decoration: #7f8925;
+  text-decoration-line: underline;
+  transition: 0.5s;
+}
+.street a {
+  font-family: Montserrat;
+  font-size: 17px;
+  color: #e5edef;
+  text-decoration: none;
+  transition: text-decoration-color 0.5s;
+}
+.street a:hover {
+  color: #7f8925;
+  text-decoration: #7f8925;
+  text-decoration-line: underline;
+  transition: 0.5s;
 }
 .sm a {
   font-family: Montserrat;
@@ -1302,10 +1328,9 @@ footer {
   text-decoration: none;
 }
 .sm a:hover {
-  font-family: Sniglet;
-  font-size: 25px;
-  color: #e5edef;
-  text-decoration: none;
+  color: #7f8925;
+  text-decoration: #7f8925;
+  text-decoration-line: underline;
   transition: 0.5s;
 }
 .address-title,
